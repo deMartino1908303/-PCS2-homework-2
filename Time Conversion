@@ -1,0 +1,13 @@
+def timeConversion(s):
+    L = s.split(":")
+    part_day = str(L[2])
+    if part_day[2:] == "PM" and L[0] != "12":
+        time  = str(int(L[0])+12)+":"+L[1]+":"+part_day[0:2]
+    elif L[0] == "12" and part_day[2:] == "AM":
+        time  = "00"+":"+L[1]+":"+part_day[0:2]
+    elif L[0] == "12" and part_day[2:] == "PM":
+        time  = L[0]+":"+L[1]+":"+part_day[0:2]
+    else :
+        time  = L[0]+":"+L[1]+":"+part_day[0:2]
+        
+    return time
