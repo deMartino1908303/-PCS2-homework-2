@@ -17,3 +17,6 @@ Compare the Triplets,
 Birthday Cake Candles,
 
 Time Conversion,
+
+Staircase,
+
