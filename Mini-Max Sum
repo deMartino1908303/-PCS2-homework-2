@@ -1,0 +1,11 @@
+def miniMaxSum(arr):
+    tot_sum = []
+    
+    for counter in range(len(arr)):
+        tmp_sum = 0
+        for count in range(len(arr)):
+            if count != counter:
+                tmp_sum += arr[count]
+        tot_sum.append(tmp_sum)
+    
+    print(min(tot_sum), max(tot_sum))
