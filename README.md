@@ -31,3 +31,8 @@ Diagonal Difference,
 Mini-Max Sum,
 
 Solve Me First.
+
+#STRINGS:
+
+CamelCase,
+
