@@ -1,0 +1,9 @@
+def camelcase(s):
+    # Write your code here
+    cap_alp = "QWERTYUIOPLKJHGFDSAZXCVBNM"
+    cap_lett = 0
+    for count in s:
+        if count in cap_alp:
+            cap_lett += 1
+    
+    return cap_lett + 1
