@@ -25,3 +25,5 @@ Plus Minus,
 A Very Big Sum,
 
 Simple Array Sum (this is the same as A Very Big Sum),
+
+Diagonal Difference,
