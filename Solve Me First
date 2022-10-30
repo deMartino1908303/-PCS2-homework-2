@@ -1,0 +1,4 @@
+def solveMeFirst(a,b):
+	# Hint: Type return a+b below
+    # i don't think hackerrank knows what a hint is
+    return a+b
