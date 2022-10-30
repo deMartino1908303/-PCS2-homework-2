@@ -1,0 +1,8 @@
+def diagonalDifference(arr):
+    # Write your code here
+    pri_diag = 0
+    sec_diag = 0
+    for count in range(len(arr)):
+        pri_diag += int(arr[count][count])
+        sec_diag += int(arr[count][len(arr)-count-1])
+    return abs(pri_diag-sec_diag)
