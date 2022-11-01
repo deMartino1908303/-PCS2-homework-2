@@ -39,3 +39,5 @@ CamelCase,
 Mars Exploration
 
 Caesar Cipher
+
+Strong Password
