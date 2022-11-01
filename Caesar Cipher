@@ -1,0 +1,19 @@
+def caesarCipher(s, k):
+    new_str = ""
+    alph = "abcdefghijklmnopqrstuvwxyz"
+    cap_alph = alph.upper()
+    for character in s :
+        if character in alph :
+            place = alph.index(character)
+            while place+k >= 26 :
+                place -=  26
+            new_str = new_str + alph[place+k]
+        elif character in cap_alph :
+            place = cap_alph.index(character)
+            while place+k >= 26 :
+                place -=  26
+            new_str = new_str + cap_alph[place+k]
+        else :
+            new_str = new_str + character
+    
+    return new_str
