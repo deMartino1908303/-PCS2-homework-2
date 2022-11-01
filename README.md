@@ -36,8 +36,10 @@ Solve Me First.
 
 CamelCase,
 
-Mars Exploration
+Mars Exploration,
 
-Caesar Cipher
+Caesar Cipher,
 
-Strong Password
+Strong Password,
+
+Pangrams.
