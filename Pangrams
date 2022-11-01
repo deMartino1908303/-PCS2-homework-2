@@ -1,0 +1,7 @@
+def pangrams(s):
+    lower_string = s.lower()
+    alph = "qwertyuioplkjhgfdsazxcvbnm"
+    for letter in alph:
+        if letter not in lower_string :
+            return "not pangram"
+    return "pangram"
