@@ -48,4 +48,6 @@ Pangrams.
 
 Insertion Sort - Part 1,
 
-Quicksort 1 - Partition
+Quicksort 1 - Partition,
+
+Find the Median,
