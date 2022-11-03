@@ -1,0 +1,11 @@
+def quickSort(arr):
+    equal = []
+    right = []
+    left = []
+    for value in arr :
+        if value < arr[0] : left.append(value)
+        elif value > arr[0] : right.append(value)
+        else : equal.append(value)
+    left.extend(equal)
+    left.extend(right)
+    return left
