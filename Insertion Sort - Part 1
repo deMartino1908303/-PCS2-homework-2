@@ -1,0 +1,15 @@
+def insertionSort1(n, arr):
+    n -= 1
+    tmp = arr[n]
+    while n > 0:
+        if arr[n-1] > tmp:
+            arr[n] = arr[n-1]
+            print(" ".join(map(str, arr)))
+        elif arr[n-1] < tmp:
+            arr[n] = tmp
+            print(" ".join(map(str, arr)))
+            break
+        n -= 1
+    if arr[0] == arr[1]:
+        arr[0] = tmp
+        print(" ".join(map(str, arr)))
