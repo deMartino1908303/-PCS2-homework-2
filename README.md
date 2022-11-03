@@ -43,3 +43,7 @@ Caesar Cipher,
 Strong Password,
 
 Pangrams.
+
+#SORTING:
+
+Insertion Sort - Part 1,
