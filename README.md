@@ -47,3 +47,5 @@ Pangrams.
 #SORTING:
 
 Insertion Sort - Part 1,
+
+Quicksort 1 - Partition
