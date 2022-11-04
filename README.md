@@ -51,3 +51,5 @@ Insertion Sort - Part 1,
 Quicksort 1 - Partition,
 
 Find the Median,
+
+Insertion Sort - Part 2,
