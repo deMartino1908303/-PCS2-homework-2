@@ -1,44 +1,7 @@
-##THIS IS THE FUNCTION FROM SLACK
 
-def merge(my_left, my_right):
-    result = []
-    pos_left = 0
-    pos_right = 0
-    
-    while pos_left < len(my_left) and pos_right < len(my_right):
-        if my_left[pos_left] < my_right[pos_right]:
-            result.append(my_left[pos_left])
-            pos_left += 1
-        else:
-            result.append(my_right[pos_right])
-            pos_right += 1
-            
-    while pos_left < len(my_left):
-        result.append(my_left[pos_left])
-        pos_left += 1
-    
-    while pos_right < len(my_right):
-        result.append(my_right[pos_right])
-        pos_right += 1
-        
-    return result
-
-def merge_sort(lst):
-    if len(lst) == 1:
-        return lst
-    
-    left = lst[0:len(lst)//2]
-    right = lst[len(lst)//2:]
-    
-    left = merge_sort(left)
-    right = merge_sort(right)
-    
-    return merge(left, right)
-
-###THIS IS THE PROGRAM
 def findMedian(arr):
     n = len(arr)
     median = int(((len(arr)+1)/2)-1)
-    arr = merge_sort(arr)
+    arr.sort()
     return arr[median]
    
