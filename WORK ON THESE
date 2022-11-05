@@ -5,24 +5,25 @@ def activityNotifications(expenditure, d):
     past_expences = expenditure[0:d]
     allert = 0
     
-    for low_count in range(len(expenditure)-d):
+    for count in range(len(expenditure)-d):
         
         median_index = len(past_expences)/2
-        count = low_count + d
         past_expences.sort()
         
         if median_index is not int :
             
-            median_index = int(median_index + 0.5)
+            median_index_up = int(median_index + 0.5)
             median = past_expences[median_index]*2
             
         else:
             
-            median = past_expences[median_index]*2
+            n1 = past_expences[median_index]
+            n2 = past_expences[median_index + 1]
+            median = (n1 + n2)
            
-        if expenditure[count] >= median:
-            
+        if expenditure[count + d] >= median:
             allert += 1
+            
         print (median_index)    
         print('the current expence : ',expenditure[count],'|----|','the current median : ', median)
             
