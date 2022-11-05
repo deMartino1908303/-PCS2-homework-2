@@ -59,3 +59,5 @@ Intro to Tutorial Challenges,
 Running Time of Algorithms,
 
 Closest Numbers,
+
+Counting Sort 1,
