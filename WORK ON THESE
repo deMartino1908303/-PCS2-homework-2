@@ -1,22 +1,22 @@
 Fraudulent Activity Notifications
 
-def activityNotifications(expenditure, d):
+def activityNotifications(expenditure, d, n):
     
-    past_expences_not_sort = expenditure[0:d]
+    index_start = 0
+    index_end = d
     allert = 0
+    
+    while  index_end <= n-1 :
 
-        
-    for count in range(len(expenditure)-d):
-        
-        past_expences = sorted(past_expences_not_sort)
-        
-        mediana = int(median(past_expences))*2
-           
-        if expenditure[count + d] >= mediana : allert += 1
+        past_exp = sorted(expenditure[index_start : index_end])
 
-        print('the current expence : ',expenditure[count + d],'|----|','the current median : ', mediana)
+        mediana = median(past_exp)
+
+        if expenditure[index_end] >= mediana *2 :
+            allert += 1
             
-        past_expences_not_sort.append(expenditure[count])
-        past_expences_not_sort.pop(0)
+        index_end += 1
+        index_start += 1
+        
         
     return allert
