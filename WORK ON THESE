@@ -1,5 +1,7 @@
 Fraudulent Activity Notifications
 
+too long to compute
+
 def activityNotifications(expenditure, d, n):
     
     index_start = 0
