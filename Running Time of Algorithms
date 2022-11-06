@@ -15,3 +15,5 @@ def runningTime(arr):
             arr.insert(position,tmp_inset)
             swaps += count1-position
     return swaps
+_________________________________CODE DESCRIPTION________________________
+this is my code of insertion sort 2 but insted of returning the sorted list it returns the number of position swapped in total
