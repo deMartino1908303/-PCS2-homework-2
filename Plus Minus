@@ -14,3 +14,6 @@ def plusMinus(arr):
     neg_rate = neg / len(arr)
     zero_rate = zero / len(arr)
     print("%.6f" % pos_rate,"%.6f" % neg_rate,"%.6f" % zero_rate, sep = "\n")
+    
+    _________________________CODE DESCRIPTION_______________________
+    it iterate trough all the values in the array and see if they are bigger, smaller or equal to zero then print the rate of precence with 6 decimals
