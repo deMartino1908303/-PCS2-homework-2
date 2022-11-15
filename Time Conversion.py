@@ -11,6 +11,6 @@ def timeConversion(s):
         time  = L[0]+":"+L[1]+":"+part_day[0:2]
         
     return time
-______________________CODE DESCRIPTION_____________________
-i hate strings so the first thing i did is splitting the string in an array, then i check for am and fm being cautious about 12 am witch is used to say midnight
-and 12 fm witch is not 24 in the 24h clock but is still 12, for the am i just place it back how it is for fm i add 12 to the hours
+#______________________CODE DESCRIPTION_____________________
+#i hate strings so the first thing i did is splitting the string in an array, then i check for am and fm being cautious about 12 am witch is used to say midnight
+#and 12 fm witch is not 24 in the 24h clock but is still 12, for the am i just place it back how it is for fm i add 12 to the hours
