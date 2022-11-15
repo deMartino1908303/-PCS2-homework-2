@@ -9,6 +9,6 @@ def quickSort(arr):
     left.extend(equal)
     left.extend(right)
     return left
-________________________CODE DESCRIPTION_____________________
-it iterate trouh the elements of the list and see if they are bigger, smaller or equal in respect of the first number in the array
-then if fuses all the lists and prints them
+#________________________CODE DESCRIPTION_____________________
+#it iterate trouh the elements of the list and see if they are bigger, smaller or equal in respect of the first number in the array
+#then if fuses all the lists and prints them
