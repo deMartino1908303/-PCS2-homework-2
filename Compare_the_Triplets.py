@@ -19,7 +19,7 @@ def compareTriplets(a, b):
         b_count += 1
     L = [player_a, player_b]
     return L
-_____________________________________CODE DESCRIPTION________________________
-the for iterate trough the a list and a counter iterate trough the b list
-the one who has the higher value get the point, in the case of a draw nobody gets the point
-then it puts the scores in an array and returns it
+#_____________________________________CODE DESCRIPTION________________________
+#the for iterate trough the a list and a counter iterate trough the b list
+#the one who has the higher value get the point, in the case of a draw nobody gets the point
+#then it puts the scores in an array and returns it
