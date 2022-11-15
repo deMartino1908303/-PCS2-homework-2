@@ -11,6 +11,6 @@ def miniMaxSum(arr):
     print(min(tot_sum), max(tot_sum))
     
   
-_______________________________CODE DESCRIPTION___________________________  
-since it give a maxium of 5 integres to sum i decided to do all the possible sums of 4 integers out of the 5 and
-print the max and the min of the array with all the sums
+#_______________________________CODE DESCRIPTION___________________________  
+#since it give a maxium of 5 integres to sum i decided to do all the possible sums of 4 integers out of the 5 and
+#print the max and the min of the array with all the sums
