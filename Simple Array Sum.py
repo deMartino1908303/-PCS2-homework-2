@@ -5,5 +5,5 @@ def simpleArraySum(ar):
         
     return big_sum
 
-_____________CODE DESCRIPTION__________
-it iterate trough the array and summ all values in it
+#_____________CODE DESCRIPTION__________
+#it iterate trough the array and summ all values in it
